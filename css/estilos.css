@@ -141,7 +141,7 @@ body {
 }
 
 .icone__gaveta::before {
-    content: url(../img/menu/Avatar_Gaveta.png);
+    content: url(../img/menu/Avatar_Samuca.png);
 }
 
 .icone__ballerini::before {
@@ -275,8 +275,8 @@ body {
     /* ESTILOS DA SECAO SUPERIOR */
 
     .superior__secao__container {
-        border-top: var(--azul-medio) 1px solid;
-        border-bottom: var(--azul-medio) 1px solid;
+        /* border-top: var(--azul-medio) 1px solid; */
+        /* border-bottom: var(--azul-medio) 1px solid; */
         width: auto;
         left: 82px;
     }
@@ -290,15 +290,21 @@ body {
 
     .videos__item:hover {
         transform: scale(1.05);
+        background-color: #fff;
     }
 
     /* ESTILOS RODAPÉ */
 
     .rodape__container {
-        height: 420px;
+        height: 280px;
         padding-left: 74px;
     }
-
+    .rodape__credito {
+        padding: 35px 20px 20px 20px;
+        color: black;
+        background-color: #fff;
+        text-decoration: underline;
+    }
 }
 
 @media(min-width: 1440px) {
@@ -330,11 +336,12 @@ body {
     }
 
 }
-
+input {
+    color: black;
+}
 @media(min-width: 1440px) {
     .menu__container {
         width: 239px;
-        overflow: scroll;
         padding: 20px 16px 20px 15px;
     }
 
@@ -372,3 +379,42 @@ body {
         order: 4;
     }
 }
+
+/* PERSONALIZACAO BARRAS DE ROLAGEM */
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #268CAF #DFE9EB;
+  }
+  
+  /* Chrome, Edge and Safari */
+  *::-webkit-scrollbar {
+    width: 8px;
+    width: 8px;
+  }
+  *::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: #DFE9EB;
+  }
+  
+  *::-webkit-scrollbar-track:hover {
+    background-color: #B8C0C2;
+  }
+  
+  *::-webkit-scrollbar-track:active {
+    background-color: #B8C0C2;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: var(--azul-medio);
+  }
+  
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: #1C66A3;
+  }
+  
+  *::-webkit-scrollbar-thumb:active {
+    background-color: #0D5FA2;
+  }
+  

@@ -12,14 +12,15 @@
 .superior__secao__container{
     display: flex;
     align-items: center;
+    justify-content: center;
     white-space: nowrap;
-    overflow: scroll;
     gap: 15px;
 }
 
 @media (min-width: 834px){
 .cabecalho__pesquisar__item {
     display: block;
+    border: 2px solid var(--azul-escuro);
 }
 .rodape__container {
     justify-content: space-between;
@@ -80,7 +81,7 @@
 
 /* VIDEOS */
 .conteiner {
-    padding: 0px 6%;
+    padding: 30px 6%;
 }
 .videos__container {
     display: flex;
@@ -91,6 +92,9 @@
     height: 303px;
     width: 280px;
     flex-grow: 1;
+}
+.videos__item iframe {
+    border-radius: 10px;
 }
 
 .imagem__canal {
