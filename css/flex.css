@@ -20,7 +20,7 @@
 @media (min-width: 834px){
 .cabecalho__pesquisar__item {
     display: block;
-    border: 2px solid var(--azul-escuro);
+    border: 1px solid var(--azul-escuro);
 }
 .rodape__container {
     justify-content: space-between;
