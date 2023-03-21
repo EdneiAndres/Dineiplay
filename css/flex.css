@@ -77,3 +77,23 @@
     }
 
 }
+
+/* VIDEOS */
+.conteiner {
+    padding: 0px 6%;
+}
+.videos__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.videos__item {
+    height: 303px;
+    width: 280px;
+    flex-grow: 1;
+}
+
+.imagem__canal {
+    width: 40px;
+    border-radius: 50%;
+}
